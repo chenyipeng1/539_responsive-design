@@ -1,0 +1,80 @@
+  @media (min-width: 768px){
+    .back2 nav li{
+        display: inline;
+    }
+  }
+  
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .part_graph{
+        text-align:center;
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .back2{
+        background-image: none;
+        height: 20vh;
+    }
+    .one{
+        border-right: 3px solid black;
+    }
+    .two{
+        border: none;
+    }
+    .three{
+        border-right: 3px solid black;
+    }
+    .five{
+        border-right: 3px solid black;
+    }
+ 
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+  @media (min-width: 481px) and (max-width: 767) and (orientation: landscape) {
+    .back2 nav li{
+        display: inline;
+    }
+    
+}
+
+
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+  
+  @media (max-width: 480px) {
+    .part_graph{
+        text-align:center;
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-gap: 10px;
+    }
+    .back2{
+        background-image: none;
+        height: 15vh;
+    }
+    .one{
+        border:none;
+    }
+    .two{
+
+        border: none;
+    }
+    .three{
+        border: none;
+    }
+    .five{
+        border: none;
+    }
+  }
+
