@@ -4,17 +4,12 @@
     }
   }
   
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-      
-  }
-  
   /* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Device = Low Resolution Tablets
     ##Screen = B/w 481px to 767px
   */
 
-  @media (min-width: 481px) and (max-width: 767) and (orientation: landscape) {
+  @media (min-width: 481px) and (max-width: 767px) {
     .part_graph{
         text-align:center;
         display: grid;
@@ -26,9 +21,7 @@
         background-image: none;
         height: 20vh;
     }
-    .back2 nav li{
-        display: inline;
-    }
+
     .one{
         border-right: 3px solid black;
     }
@@ -41,9 +34,19 @@
     .five{
         border-right: 3px solid black;
     }
+  } 
+  
+  /* 
+    ##Device = Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
 
-    
+  @media (min-width: 481px) and (max-width: 767px) and (orientation: landscape){
+    .back2 nav li{
+        display: inline;
+    }
 }
+
 
 
   /* 
